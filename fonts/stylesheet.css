@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Copyright Klim Type Foundry';
+    src: url('Geograph-Medium.woff2') format('woff2'),
+        url('Geograph-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('Pretendard-Bold.woff2') format('woff2'),
+        url('Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Copyright Klim Type Foundry';
+    src: url('Geograph-Regular.woff2') format('woff2'),
+        url('Geograph-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('Pretendard-Medium.woff2') format('woff2'),
+        url('Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('Pretendard-Regular.woff2') format('woff2'),
+        url('Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

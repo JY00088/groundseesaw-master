@@ -1,0 +1,468 @@
+/*main*/
+@import url('./commos.css');
+
+
+
+.boxsvg {
+  //opacity: 0;
+  //display: none;
+}
+
+.menu-mobile {
+  //display: none;
+}
+
+.menuBox {
+  opacity: 0 ;
+  display: none;
+}
+
+main {
+  width: 100%;
+  margin-top: 0px;
+
+  .swiper {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    // border: 1px solid red;
+    // box-sizing: border-box;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+
+    .swiper-wrapper {
+
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        //margin-right: 0;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+
+        top: 0px;
+        left: 0px;
+        object-fit: cover;
+        position: relative;
+        font-size: 60.32px;
+
+        // &:hover {
+        //   background-color: #3165cc !important;
+        //   //opacity: 1 !important;
+        // }
+
+
+
+        .textmain {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0px;
+          bottom: 0px;
+          font-size: 60px;
+          letter-spacing: -2px;
+          text-align: left;
+
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          height: 100%;
+          align-items: flex-start;
+          //opacity: 0;
+
+          .banner-text01 {
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            bottom: 0;
+
+
+            span:nth-of-type(2) {
+              display: block;
+              padding-top: 40px;
+              padding-bottom: 70px;
+
+            }
+
+            .buttext {
+              display: block;
+              width: 220px;
+              height: 70px;
+              line-height: 45px;
+              border: 1px #fff solid;
+              background-color: transparent;
+              cursor: pointer;
+              color: #fff;
+              font-size: 30px;
+              padding-top: 13px;
+              text-align: center;
+            }
+
+            span button img {
+              width: 44px;
+              padding: 0 10px 10px 40px;
+              float: right;
+            }
+          }
+
+          &:hover .banner-text01 {
+            opacity: 1 !important;
+          }
+
+          p {
+            padding: 5%;
+          }
+
+
+        }
+
+        &.s1:hover .textmain {
+          background-color: #3165cc;
+          opacity: 1 !important;
+        }
+
+        &.s2:hover .textmain {
+          background-color: #a0c0ff;
+          opacity: 1 !important;
+        }
+
+        &.s3:hover .textmain {
+          background-color: #ffd561;
+          opacity: 1 !important;
+        }
+      }
+
+
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-right: 0;
+      }
+
+
+    }
+
+
+
+
+    .btn {
+      width: 100%;
+      display: flex;
+      position: absolute;
+      justify-content: space-between;
+      z-index: 9999;
+
+      button {
+        background-color: transparent;
+        border: none;
+      }
+
+      button:after {
+        display: none;
+      }
+
+      button:hover {
+        background-color: rgba(255, 255, 255, 0.458);
+        width: 40px;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+
+/*hover*/
+
+
+// main .mainbanner .banner01:nth-child(1) div.textmain {
+//   opacity: 0;
+
+// }
+
+// main .mainbanner .banner01:nth-child(1):hover div.textmain {
+//   background-color: #3165cc;
+//   opacity: 1;
+
+// }
+
+// main .mainbanner .banner01:nth-child(2) div.textmain {
+//   opacity: 0;
+// }
+
+// main .mainbanner .banner01:nth-child(2):hover div.textmain {
+//   background-color: #ec5439;
+//   opacity: 1;
+
+// }
+
+// main .mainbanner .banner01:nth-child(3) div.textmain {
+//   opacity: 0;
+// }
+
+// main .mainbanner .banner01:nth-child(3):hover div.textmain {
+//   background-color: #98d0fb;
+//   opacity: 1;
+
+// }
+
+main .mainbanner .banner01:hover .textmain .banner-text01 {
+
+  // margin: 0;
+  // outline: none;
+  // position: relative;
+  // flex-shrink: 0;
+  // backface-visibility: hidden;
+}
+
+
+/*-----------------main-------------------*/
+@media (min-width:768px)and (max-width:1024px) {
+  main {
+
+    width: 100%;
+    margin-top: 190px;
+
+
+    .mainbanner {
+      width: 100%;
+      height: 700px;
+      display: flex;
+      align-items: center;
+      border: 1px solid red;
+      box-sizing: border-box;
+      justify-content: space-between;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+
+
+      div.arrowbtn {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        z-index: 999999;
+
+        button {
+          background-color: transparent;
+          border: none;
+
+        }
+
+        button:hover {
+          background-color: rgba(255, 255, 255, 0.458);
+        }
+      }
+
+      .banner01 {
+        width: 33.3%;
+        height: 100%;
+        // border: 1px solid red;
+        box-sizing: inherit;
+
+        // position: absolute;
+        top: 0px;
+        left: 0px;
+        object-fit: cover;
+        position: relative;
+        font-size: 60.32px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        .textmain {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0px;
+          bottom: 0px;
+
+          font-size: 50px;
+          letter-spacing: -2px;
+          text-align: left;
+
+          padding-bottom: 10px;
+          padding-left: 10px;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          height: 100%;
+          align-items: flex-start;
+
+          p {
+            padding: 5%;
+
+            span:nth-of-type(2) {
+              display: block;
+              padding-top: 40px;
+              padding-bottom: 130px;
+
+            }
+
+            .buttext {
+              display: block;
+              width: 180px;
+              height: 60px;
+              line-height: 45px;
+              border: 1px #fff solid;
+              background-color: transparent;
+              cursor: pointer;
+              color: #fff;
+              font-size: 30px;
+              padding-top: 13px;
+              text-align: center;
+            }
+
+            span button img {
+              width: 44px;
+              padding: 0 3px 10px 40px;
+              float: right;
+            }
+          }
+
+        }
+
+      }
+
+
+    }
+  }
+}
+
+@media (max-width:767px) {
+  main {
+
+    width: 100%;
+    // margin-top: 160px;
+
+    .mainbanner {
+      width: 100%;
+      height: 700px;
+      display: flex;
+      align-items: center;
+      // border: 1px solid red;
+      // box-sizing: border-box;
+      justify-content: space-between;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+
+
+      div.arrowbtn {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        z-index: 999999;
+
+        button {
+          background-color: transparent;
+          border: none;
+
+        }
+
+        button:hover {
+          background-color: rgba(255, 255, 255, 0.458);
+        }
+      }
+
+      .banner01 {
+        width: 100%;
+        height: 100%;
+        box-sizing: inherit;
+        top: 0px;
+        left: 0px;
+        object-fit: contain;
+        position: relative;
+        font-size: 60.32px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+
+        }
+
+        .banner01 img:nth-of-type(2),
+        .banner01 img:nth-of-type(3) {
+          display: none;
+        }
+
+      }
+
+      .textmain {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        bottom: 0px;
+
+        font-size: 50px;
+        letter-spacing: -2px;
+        text-align: left;
+
+        padding-bottom: 10px;
+        padding-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        align-items: flex-start;
+
+
+        p {
+          padding: 5%;
+
+          .buttext {
+            display: block;
+            width: 180px;
+            height: 60px;
+            line-height: 45px;
+            border: 1px #fff solid;
+            background-color: transparent;
+            cursor: pointer;
+            color: #fff;
+            font-size: 30px;
+            padding-top: 13px;
+            text-align: center;
+          }
+
+          span button img {
+            width: 44px;
+            padding: 0 3px 10px 40px;
+            float: right;
+          }
+        }
+
+      }
+
+    }
+
+
+  }
+}

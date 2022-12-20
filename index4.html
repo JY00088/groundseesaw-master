@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   
+
+    <style>
+
+        
+        .triangle {
+            width: 0;
+            height: 0;
+
+            border-bottom: solid 50px transparent;
+            border-top: solid 50px black;
+            border-left: solid 50px transparent;
+            border-right: solid 50px transparent;
+        }
+
+        .triangle:before {
+            content: "";
+            width: 0;
+            height: 0;
+
+            position: absolute;
+            border-bottom: solid 48px transparent;
+            border-top: solid 48px white;
+            border-left: solid 48px transparent;
+            border-right: solid 48px transparent;
+            top: -49px;
+            left: -48px;
+        }
+    </style>
+
+
+
+    <div class="triangle">
+
+    </div>
+</body>
+
+</html>

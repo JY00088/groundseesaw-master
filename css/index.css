@@ -1,0 +1,310 @@
+/*main*/
+@import url("./commos.css");
+.menuBox {
+  opacity: 0;
+  display: none;
+}
+
+main {
+  width: 100%;
+  margin-top: 0px;
+}
+main .swiper {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+main .swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  font-size: 60.32px;
+}
+main .swiper .swiper-wrapper .swiper-slide .textmain {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  bottom: 0px;
+  font-size: 60px;
+  letter-spacing: -2px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+}
+main .swiper .swiper-wrapper .swiper-slide .textmain .banner-text01 {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+}
+main .swiper .swiper-wrapper .swiper-slide .textmain .banner-text01 span:nth-of-type(2) {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+main .swiper .swiper-wrapper .swiper-slide .textmain .banner-text01 .buttext {
+  display: block;
+  width: 220px;
+  height: 70px;
+  line-height: 45px;
+  border: 1px #fff solid;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  font-size: 30px;
+  padding-top: 13px;
+  text-align: center;
+}
+main .swiper .swiper-wrapper .swiper-slide .textmain .banner-text01 span button img {
+  width: 44px;
+  padding: 0 10px 10px 40px;
+  float: right;
+}
+main .swiper .swiper-wrapper .swiper-slide .textmain:hover .banner-text01 {
+  opacity: 1 !important;
+}
+main .swiper .swiper-wrapper .swiper-slide .textmain p {
+  padding: 5%;
+}
+main .swiper .swiper-wrapper .swiper-slide.s1:hover .textmain {
+  background-color: #3165cc;
+  opacity: 1 !important;
+}
+main .swiper .swiper-wrapper .swiper-slide.s2:hover .textmain {
+  background-color: #a0c0ff;
+  opacity: 1 !important;
+}
+main .swiper .swiper-wrapper .swiper-slide.s3:hover .textmain {
+  background-color: #ffd561;
+  opacity: 1 !important;
+}
+main .swiper .swiper-wrapper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 0;
+}
+main .swiper .btn {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  z-index: 9999;
+}
+main .swiper .btn button {
+  background-color: transparent;
+  border: none;
+}
+main .swiper .btn button:after {
+  display: none;
+}
+main .swiper .btn button:hover {
+  background-color: rgba(255, 255, 255, 0.458);
+  width: 40px;
+  justify-content: space-between;
+}
+
+/*hover*/
+/*-----------------main-------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  main {
+    width: 100%;
+    margin-top: 190px;
+  }
+  main .mainbanner {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    box-sizing: border-box;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+  }
+  main .mainbanner div.arrowbtn {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    z-index: 999999;
+  }
+  main .mainbanner div.arrowbtn button {
+    background-color: transparent;
+    border: none;
+  }
+  main .mainbanner div.arrowbtn button:hover {
+    background-color: rgba(255, 255, 255, 0.458);
+  }
+  main .mainbanner .banner01 {
+    width: 33.3%;
+    height: 100%;
+    box-sizing: inherit;
+    top: 0px;
+    left: 0px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    font-size: 60.32px;
+  }
+  main .mainbanner .banner01 img {
+    width: 100%;
+    height: 100%;
+  }
+  main .mainbanner .banner01 .textmain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    font-size: 50px;
+    letter-spacing: -2px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+  }
+  main .mainbanner .banner01 .textmain p {
+    padding: 5%;
+  }
+  main .mainbanner .banner01 .textmain p span:nth-of-type(2) {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 130px;
+  }
+  main .mainbanner .banner01 .textmain p .buttext {
+    display: block;
+    width: 180px;
+    height: 60px;
+    line-height: 45px;
+    border: 1px #fff solid;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 13px;
+    text-align: center;
+  }
+  main .mainbanner .banner01 .textmain p span button img {
+    width: 44px;
+    padding: 0 3px 10px 40px;
+    float: right;
+  }
+}
+@media (max-width: 767px) {
+  main {
+    width: 100%;
+  }
+  main .mainbanner {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+  }
+  main .mainbanner div.arrowbtn {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    z-index: 999999;
+  }
+  main .mainbanner div.arrowbtn button {
+    background-color: transparent;
+    border: none;
+  }
+  main .mainbanner div.arrowbtn button:hover {
+    background-color: rgba(255, 255, 255, 0.458);
+  }
+  main .mainbanner .banner01 {
+    width: 100%;
+    height: 100%;
+    box-sizing: inherit;
+    top: 0px;
+    left: 0px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    font-size: 60.32px;
+  }
+  main .mainbanner .banner01 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .mainbanner .banner01 .banner01 img:nth-of-type(2),
+main .mainbanner .banner01 .banner01 img:nth-of-type(3) {
+    display: none;
+  }
+  main .mainbanner .textmain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    font-size: 50px;
+    letter-spacing: -2px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+  }
+  main .mainbanner .textmain p {
+    padding: 5%;
+  }
+  main .mainbanner .textmain p .buttext {
+    display: block;
+    width: 180px;
+    height: 60px;
+    line-height: 45px;
+    border: 1px #fff solid;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 13px;
+    text-align: center;
+  }
+  main .mainbanner .textmain p span button img {
+    width: 44px;
+    padding: 0 3px 10px 40px;
+    float: right;
+  }
+}/*# sourceMappingURL=index.css.map */

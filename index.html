@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script defer src="./common.js"></script>
+    <script defer src="./index.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./css/index.css">
+    <meta name="viewport" content="width=divce-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="boxsvg">
+        <!-- absolute / width / height계산해서 넣기 + 클릭이벤트 옮기기 -->
+        <svg class="svground" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 2068" width="2200" height="2068"
+            preserveAspectRatio="xMidYMid meet">
+            <defs>
+                <clipPath id="__lottie_element_2">
+                    <rect width="2200" height="2068" x="0" y="0"></rect>
+                </clipPath>
+                <mask id="__lottie_element_9" mask-type="alpha">
+                    <g transform="matrix(1,0,0,1,-42.4849853515625,661.2969970703125)" opacity="1"
+                        style="display: block;">
+                        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10"
+                            stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="21.635"
+                            d=" M1405.15,1366.91 C860.2,1512.93 300.06,1189.53 154.04,644.58 C8.02,99.63 331.42,-460.51 876.37,-606.53 C1421.32,-752.55 1981.46,-429.15 2127.48,115.8 C2273.5,660.75 1950.1,1220.89 1405.15,1366.91z">
+                        </path>
+                        <path fill="rgb(0,0,0)" fill-opacity="1"
+                            d=" M1405.15,1366.91 C860.2,1512.93 300.06,1189.53 154.04,644.58 C8.02,99.63 331.42,-460.51 876.37,-606.53 C1421.32,-752.55 1981.46,-429.15 2127.48,115.8 C2273.5,660.75 1950.1,1220.89 1405.15,1366.91z">
+                        </path>
+                        <g opacity="1"
+                            transform="matrix(0.9659258127212524,-0.258819043636322,0.258819043636322,0.9659258127212524,1142.031982421875,372.5899963378906)">
+                        </g>
+                    </g>
+                </mask>
+            </defs>
+
+            <g class="anig" clip-path="url(#__lottie_element_2)">
+                <g mask="url(#__lottie_element_9)" style="display: block;">
+                    <g transform="matrix(1,0,0,1,-820,-46)" opacity="1">
+                        <path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="3"
+                            stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="21.635"
+                            d=" M1920,1481.41 C1920,1481.41 1524.91,1481.41 1524.91,1481.41 C1524.91,1481.41 1919.35,1086.97 1919.35,1086.97 C1919.35,1086.97 2313.8,1481.41 2313.8,1481.41 C2313.8,1481.41 1920,1481.41 1920,1481.41z">
+                        </path>
+                        <g opacity="1" transform="matrix(1,0,0,1,1919.35400390625,1284.19189453125)"></g>
+                    </g>
+                </g>
+                <g class="ani" transform="matrix(1,0,0,1,-42.4849853515625,661.2969970703125)" opacity="1"
+                    style="display: block;">
+                    <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10"
+                        stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="21.635"
+                        d=" M1405.15,1366.91 C860.2,1512.93 300.06,1189.53 154.04,644.58 C8.02,99.64 331.42,-460.5 876.37,-606.52 C1421.32,-752.54 1981.47,-429.14 2127.48,115.8 C2273.5,660.75 1950.1,1220.89 1405.15,1366.91z">
+                    </path>
+                    <g opacity="1"
+                        transform="matrix(0.9502862691879272,-0.3113776743412018,-0.16847480833530426,-0.5141643285751343,1142.031982421875,372.5899963378906)">
+                    </g>
+
+                </g>
+                <g transform="matrix(1,0,0,1,1100,1034)" opacity="1" style="display: block;"></g>
+            </g>
+        </svg>
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(0,0,0)"
+            stroke-opacity="1" stroke-width="21.635"
+            d=" M1405.15,1366.91 C860.2,1512.93 300.06,1189.53 154.04,644.58 C8.02,99.64 331.42,-460.5 876.37,-606.52 C1421.32,-752.54 1981.47,-429.14 2127.48,115.8 C2273.5,660.75 1950.1,1220.89 1405.15,1366.91z">
+        </path>
+    </div>
+
+
+    <!-------------------header---------------------->
+    <img class="menu-mobile">
+    <!---------------menu-------------------------------->
+
+    <!--------------------------main------------------------>
+    <main>
+        <!-- <div class="mainbanner mySwiper swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="banner01">
+                        <img src="./images/Backgrounds/157_Miracle_№4-1-e1666149313262.jpg">
+
+                        <div class="textmain">
+                            <p class="banner-text01">
+                                <span>Seochon</span>
+                                <span>2022.11.25 -<br>
+                                    2023.04.02</span>
+
+                                <span><button class="buttext">Ticket <img
+                                            src="./images/Iicons/arrow_white-right.svg"></button></span>
+                            </p>
+
+                            <p>나탈리 카르푸셴코 사진전</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="banner01">
+                        <img src="./images/Backgrounds/GSS_WEB_MAIN_MONET_0831.jpg">
+                        <div class="textmain">
+                            <p class="banner-text01">
+                                <span> Myeongdong</span>
+                                <span>2022.09.01 -<br>
+                                    2023.11.30</span>
+                                <span><button class="buttext">Ticket<img src="./images/Iicons/arrow_white-right.svg">
+                                    </button></span>
+                            </p>
+
+                            <p>모네 인사이드</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="banner01">
+                        <img src="./images/Backgrounds/IMG_8527.jpg">
+                        <div class="textmain">
+                            <p class="banner-text01">
+                                <span>Seongsu</span>
+                                <span>2022.12.23 -<br>
+                                    2023.05.07</span>
+                                <span><button class="buttext">Ticket<img src="./images/Iicons/arrow_white-right.svg">
+                                    </button></span>
+                            </p>
+
+                            <p>어노니머스 프로젝트</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrowbtn">
+                <button class="swiper-button-next"><img src="./images/Iicons/arrow_black-left.svg"> </button>
+                <button class="swiper-button-prev"><img src="./images/Iicons/arrow_black-right.svg"> </button>
+            </div>
+
+        </div> -->
+
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide s1">
+
+                    <img src="./images/Backgrounds/157_Miracle_№4-1-e1666149313262.jpg">
+
+                    <div class="textmain">
+                        <p class="banner-text01">
+                            <span>Seochon</span>
+                            <span>2022.11.25 -<br>
+                                2023.04.02</span>
+
+                            <span><button class="buttext">Ticket <img
+                                        src="./images/Iicons/arrow_white-right.svg"></button></span>
+                        </p>
+
+                        <p>나탈리 카르푸셴코 사진전</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide s2">
+
+                    <img src="./images/Backgrounds/GSS_WEB_MAIN_MONET_0831.jpg">
+                    <div class="textmain">
+                        <p class="banner-text01">
+                            <span> Myeongdong</span>
+                            <span>2022.09.01 -<br>
+                                2023.11.30</span>
+                            <span><button class="buttext">Ticket<img src="./images/Iicons/arrow_white-right.svg">
+                                </button></span>
+                        </p>
+
+                        <p>모네 인사이드</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide s3">
+                    <img src="./images/Backgrounds/IMG_8527.jpg">
+                    <div class="textmain">
+                        <p class="banner-text01">
+                            <span>Seongsu</span>
+                            <span>2022.12.23 -<br>
+                                2023.05.07</span>
+                            <span><button class="buttext">Ticket<img src="./images/Iicons/arrow_white-right.svg">
+                                </button></span>
+                        </p>
+
+                        <p>어노니머스 프로젝트</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="btn">
+                <button class="swiper-button-next"><img src="./images/Iicons/arrow_black-right.svg"> </button>
+                <button class="swiper-button-prev"><img src="./images/Iicons/arrow_black-left.svg"> </button>
+            </div>
+        </div>
+
+        <style>
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+
+    </main>
+
+    
+
+
+
+
+    <!-------------->
+    <div class="menuBox">
+        <!-- <a class="menubtn"><img class="menu-mobile" src="./images/Iicons/mobile-menu-x.svg"></a> -->
+
+        <div>
+            <ul>
+                <li><a href="#">Exhibitions</a></li>
+                <li><a href="#">Visit</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+
+        <a href="./index.html"><svg class="svground01" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 2068"
+                width="200" height="268" preserveAspectRatio="xMidYMid meet">
+                <defs>
+                    <clipPath id="__lottie_element_2">
+                        <rect width="2200" height="2068" x="0" y="0"></rect>
+                    </clipPath>
+                    <mask id="__lottie_element_9" mask-type="alpha">
+                        <g transform="matrix(1,0,0,1,-42.4849853515625,661.2969970703125)" opacity="1"
+                            style="display: block;">
+                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10"
+                                stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="21.635"
+                                d=" M1405.15,1366.91 C860.2,1512.93 300.06,1189.53 154.04,644.58 C8.02,99.63 331.42,-460.51 876.37,-606.53 C1421.32,-752.55 1981.46,-429.15 2127.48,115.8 C2273.5,660.75 1950.1,1220.89 1405.15,1366.91z">
+                            </path>
+                            <path fill="rgb(0,0,0)" fill-opacity="1"
+                                d=" M1405.15,1366.91 C860.2,1512.93 300.06,1189.53 154.04,644.58 C8.02,99.63 331.42,-460.51 876.37,-606.53 C1421.32,-752.55 1981.46,-429.15 2127.48,115.8 C2273.5,660.75 1950.1,1220.89 1405.15,1366.91z">
+                            </path>
+                            <g opacity="1"
+                                transform="matrix(0.9659258127212524,-0.258819043636322,0.258819043636322,0.9659258127212524,1142.031982421875,372.5899963378906)">
+                            </g>
+                        </g>
+                    </mask>
+                </defs>
+
+                <g class="anig" clip-path="url(#__lottie_element_2)">
+                    <g mask="url(#__lottie_element_9)" style="display: block;">
+                        <g transform="matrix(1,0,0,1,-820,-46)" opacity="1">
+                            <path stroke-linecap="square" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="3"
+                                stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="21.635"
+                                d=" M1920,1481.41 C1920,1481.41 1524.91,1481.41 1524.91,1481.41 C1524.91,1481.41 1919.35,1086.97 1919.35,1086.97 C1919.35,1086.97 2313.8,1481.41 2313.8,1481.41 C2313.8,1481.41 1920,1481.41 1920,1481.41z">
+                            </path>
+                            <g opacity="1" transform="matrix(1,0,0,1,1919.35400390625,1284.19189453125)"></g>
+                        </g>
+                    </g>
+                    <g class="ani" transform="matrix(1,0,0,1,-42.4849853515625,661.2969970703125)" opacity="1"
+                        style="display: block;">
+                        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10"
+                            stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="21.635"
+                            d=" M1405.15,1366.91 C860.2,1512.93 300.06,1189.53 154.04,644.58 C8.02,99.64 331.42,-460.5 876.37,-606.52 C1421.32,-752.54 1981.47,-429.14 2127.48,115.8 C2273.5,660.75 1950.1,1220.89 1405.15,1366.91z">
+                        </path>
+                        <g opacity="1"
+                            transform="matrix(0.9502862691879272,-0.3113776743412018,-0.16847480833530426,-0.5141643285751343,1142.031982421875,372.5899963378906)">
+                        </g>
+
+                    </g>
+                    <g transform="matrix(1,0,0,1,1100,1034)" opacity="1" style="display: block;"></g>
+                </g>
+            </svg>
+        </a>
+
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(0,0,0)"
+            stroke-opacity="1" stroke-width="21.635"
+            d=" M1405.15,1366.91 C860.2,1512.93 300.06,1189.53 154.04,644.58 C8.02,99.64 331.42,-460.5 876.37,-606.52 C1421.32,-752.54 1981.47,-429.14 2127.48,115.8 C2273.5,660.75 1950.1,1220.89 1405.15,1366.91z">
+        </path>
+
+    </div>
+    <script>
+        const menumobile = document.querySelector('.menu-mobile'),
+            menuBox = document.querySelector('.menuBox')
+        console.log(
+            menuBox, menumobile
+        )
+        menumobile.addEventListener('click', () => {
+            console.log('눌럿당')
+            menumobile.classList.toggle('menuOn')
+            if (menumobile.classList.contains('menuOn')) {
+                menuBox.style = `opacity:1;`
+            } else {
+                menuBox.style = `opacity:0;`
+            }
+            menumobile.classList.toggle('on')
+        });
+
+
+    </script>
+
+    <!-------------------footer------------------------->
+
+</body>
+
+</html>
