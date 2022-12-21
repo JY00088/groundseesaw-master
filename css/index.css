@@ -1,7 +1,6 @@
 /*main*/
 @import url("./commos.css");
 .menuBox {
-  opacity: 0;
   display: none;
 }
 

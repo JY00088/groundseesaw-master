@@ -43,10 +43,10 @@ var swiper = new Swiper(".mySwiper", {
     loop: true,
     slidesPerView: 3,
     breakpoints: {
-                    640: {
+                    0: {
                         slidesPerView: 1
                     },
-                    768: {
+                    767: {
                         slidesPerView: 2
                     },
                     1024: {

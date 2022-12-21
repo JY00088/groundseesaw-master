@@ -344,7 +344,7 @@ footer .footer-bar .btnbox {
   position: fixed;
   right: 20px;
   bottom: 50px;
-  transform: translateY(-70px);
+  transform: translateY(-60px);
   transition: 1s;
   opacity: 1;
 }
@@ -400,10 +400,10 @@ footer .footer-bar .footer-a {
     top: 0;
     left: 0;
     z-index: 999999;
-    opacity: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: block;
   }
   .menuBox ul {
     margin-top: 300px;
@@ -423,7 +423,9 @@ footer .footer-bar .footer-a {
     color: red;
   }
   .svground01 {
-    margin-top: 500px;
+    margin: 0 auto;
+    margin-left: 37%;
+    margin-top: 480px;
   }
   .menuOn {
     opacity: 1;
@@ -659,7 +661,7 @@ footer .footer-bar .footer-a {
     background-color: #dcdcde;
   }
   footer .footer-bar {
-    width: 40%;
+    width: 50%;
     padding-left: 10px;
     padding-right: 10px;
     align-items: flex-start;
@@ -682,9 +684,17 @@ footer .footer-bar .footer-a {
     margin: 0 3px 0 0;
     align-items: flex-end;
   }
+  footer .footer-bar .btnbox.sc {
+    opacity: 0;
+    transform: translateY(30px);
+  }
   footer .footer-bar .btnbox {
-    position: absolute;
-    right: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    transform: translateY(-30px);
+    transition: 1s;
+    opacity: 1;
   }
   footer .footer-bar .btnbox .footerbtn {
     width: 30px;
@@ -694,6 +704,15 @@ footer .footer-bar .footer-a {
     padding: 0.7em 0.4em 0.2em 0.4em;
     position: -webkit-sticky;
     position: sticky;
+    right: 0px;
+    bottom: 10px;
+  }
+  footer .footer-bar .btnbox .show {
+    visibility: visible;
+  }
+  footer .footer-bar .btnbox .active {
+    opacity: 1;
+    transform: translateX(0);
   }
   footer .footer-bar ul {
     margin: 0;
